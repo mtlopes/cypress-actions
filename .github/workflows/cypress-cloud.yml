@@ -21,7 +21,7 @@
               browser: electron
               record: true
               group: UI Electron
-              spec: ${{ github.event.inputs.spec}}
+              spec: ${{ github.event.inputs.spec }}
             env:
               CYPRESS_RECOR_KEY: cc635cb8-3ebd-467a-831a-bf5a22cf77b2
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
