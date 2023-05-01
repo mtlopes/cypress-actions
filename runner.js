@@ -6,7 +6,7 @@ const TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImViM2JjMzQ2LWM5ODIt
 cypress.run({
   //specs to run here
 })
-.then((results)) => {
+.then((results) => {
   const args = {
     target: TOKEN,
   }
