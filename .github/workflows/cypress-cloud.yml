@@ -23,7 +23,7 @@
               group: UI Electron
               spec: ${{ github.event.inputs.spec}}
             env:
-              CYPRESS_RECOR_KEY: npx cypress run --record --key cc635cb8-3ebd-467a-831a-bf5a22cf77b2
+              CYPRESS_RECOR_KEY: cc635cb8-3ebd-467a-831a-bf5a22cf77b2
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
               
