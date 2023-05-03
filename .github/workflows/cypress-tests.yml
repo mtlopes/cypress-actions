@@ -3,6 +3,10 @@ name: Cypress Tests
 on:
     push:
       branches: [main]
+    pull_request:
+    schedule:
+        - cron: '0 9,11,15,18 * * 1,2,3,4,5'
+        
 
 jobs:
   cypress-electron-tests:
